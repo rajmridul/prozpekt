@@ -1,0 +1,19 @@
+{
+  "name": "youtube-music-player",
+  "version": "1.0.0",
+  "description": "A YouTube-based music player",
+  "main": "js/script.js",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node build.js",
+    "watch": "tsc -w",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
